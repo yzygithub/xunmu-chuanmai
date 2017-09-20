@@ -188,6 +188,9 @@
 }
 .fa-search:before {
   content: "\f002";
+	position: absolute;
+	left: 8px;
+	top: 23px;
 }
 .fa-envelope-o:before {
   content: "\f003";
@@ -996,6 +999,8 @@
 }
 .fa-location-arrow:before {
   content: "\f124";
+  color: red;
+  padding-left: 10px;
 }
 .fa-crop:before {
   content: "\f125";

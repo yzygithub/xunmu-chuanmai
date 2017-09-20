@@ -152,6 +152,7 @@
     top: 0;
     left: 221px;
     border: 1px solid #ccc;
+    border-bottom: none;
     z-index: 4;
     border-left: none;
     background: #fff;
@@ -186,6 +187,9 @@
     font-size: 18px;
     margin-top: 25px;
 }
+.submenu-div dl dt a:hover{
+	text-decoration: underline;
+}
 .submenu-div dl dd{
     display: block;
     overflow: hidden;
@@ -201,7 +205,9 @@
     line-height: 16px;
     margin: 7px 0;
 }
-    
+.submenu-div dl dd a:hover{
+	color: #ffbf40;
+}   
 .content-box-middle{
     width: 709px;
     height: 500px;
@@ -326,13 +332,12 @@
 }
 .assortment{
     width: 1200px;
-    height: 288px;
-    border: 1px solid #ccc;
+    height: 245px;
 }
 .recomment-content{
     width: 1150px;
     height: 220px;
-    margin-top: 38px;
+    margin-top: 22px;
     margin-left: 25px;
 }
 .recomment-content1{
@@ -356,6 +361,13 @@
     overflow:hidden; 
     text-overflow:ellipsis;
 }
+.content-a-title{
+	margin-top: 22px; 
+	font-size: 16px;
+}
+.content-a-title:hover{
+	color: #ffbf40;
+}
 /*recomment区域 end*/
 /*优惠专区*/
 .discount{
@@ -365,6 +377,7 @@
 .discount-title{
     width: 1200px;
     height: 42px;
+    margin-bottom: 22px;
 }
 .discount-title p{
     float: left; 
@@ -408,6 +421,7 @@
 .dynamic-left-title{
     width: 900px;
     height: 42px;
+    margin-bottom: 22px;
 }
 .dynamic-left-title p{
     float: left; 
@@ -418,7 +432,6 @@
 .dynamic-left-content-box{
     width: 900px;
     height: 296px;
-    border: 1px solid #ccc;
 }
 .dynamic-left-content{
     width: 900px;
@@ -634,7 +647,7 @@
     border-radius: 4px;
 }
 .lc-list-each:hover .tit-link {
-    color: #ffbf40;
+    color: #ff5400;
 }
 .lc-list-each:hover {
     box-shadow: 0 0 6px #666;
