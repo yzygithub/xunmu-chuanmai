@@ -79,6 +79,7 @@
     background-color: #ffbf40;
     width: 100%;
     min-width: 1200px;
+    border-bottom: 1px #f8f2e7 solid;
 }
 .shopClass{
     width: 221px;
@@ -86,7 +87,7 @@
 }
 .shopClass h3{
     background: url(../img/icon.png) 11px center no-repeat;
-    line-height: 50px;
+    line-height: 49px;
     text-align: center;
     font-size: 22px;
     color: #fff;
