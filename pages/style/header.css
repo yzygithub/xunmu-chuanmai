@@ -1,0 +1,54 @@
+﻿/*top nav*/
+.top {
+    width: 100%;
+    min-width: 1200px;
+    height: 35px;
+    background-color: #f6f6f6;
+    border-bottom: solid 1px #eee;
+}
+
+.top-nav {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.nav-left {
+    line-height:35px;
+}
+
+.nav-right {
+    line-height: 35px;
+}
+
+.nav-right ul li{
+    float: left;
+}
+.nav-right ul li:hover {
+    background-color: #fff;
+    border: 1px #ccc solid; 
+}
+.nav-right ul li:hover>a {
+    color: #ffbf40;
+}
+.nav-right ul li:hover>div {
+    box-shadow: 0 0 4px #888;
+}
+.nav-right ul li div a:hover {
+    color:  #ffbf40;
+}
+.nav-right ul li a{
+    display: block;
+    width: 80px;
+    text-align: center;
+    color: #5e5e5e;
+}
+.org-center , .user-center , .sever , .help{
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	z-index: 1000;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+

@@ -1,0 +1,232 @@
+
+/* 教育专栏 开始 */
+.lc {
+    margin-top: 20px;
+    /*margin-bottom: 20px;*/
+    padding-bottom: 5px;
+}
+.lc-main {
+    width: 940px;
+}
+.lc-title {
+    height: 36px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid;
+}
+/*.lc-title-1F {*/
+    /*border-color: #e83f3d;*/
+/*}*/
+/*.lc-title-2F {*/
+    /*border-color: #ffa51d;*/
+/*}*/
+/*.lc-title-3F {*/
+    /*border-color: #a24f84;*/
+/*}*/
+.lc-title-left {
+    height: 36px;
+    background-repeat: no-repeat;
+}
+/*.lc-title-left-1F {*/
+    /*background-image: url("../images/index/floor-name1.png");*/
+/*}*/
+/*.lc-title-left-2F {*/
+    /*background-image: url("../images/index/floor-name2.png");*/
+/*}*/
+/*.lc-title-left-3F {*/
+    /*background-image: url("../images/index/floor-name3.png");*/
+/*}*/
+.lc-num {
+    width: 63px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 13px;
+    padding-left: 4px;
+}
+.lc-title-name {
+    font-size: 18px;
+    color: #666;
+    line-height: 1;
+    margin-top: 10px;
+}
+.lc-title-right {
+    height: 36px;
+}
+.lc-tab-ul {
+    margin-top: 22px;
+    margin-right: -18px;
+}
+.lc-tab-li {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1;
+    font-size: 14px;
+    color: #555;
+}
+.lc-tab-li+li {
+    border-left: 1px solid #d5d5d5;
+}
+.lc-tab-li-a {
+    color: #555;
+}
+.tab-1F-active {
+    color: #e83f3d;
+}
+.tab-2F-active {
+    color: #ffa51d;
+}
+.tab-3F-active {
+    color: #a24f84;
+}
+.lc-main-left {
+    position: relative;
+    width: 220px;
+    height: 430px;
+    overflow: hidden;
+    /*background-repeat: no-repeat;*/
+    background-position: left top;
+    background-size: 100%;
+}
+/*.lc-main-left-1F {*/
+    /*background-image: url("../images/index/lou-left-01.png");*/
+/*}*/
+/*.lc-main-left-2F {*/
+    /*background-image: url("../images/index/lou-left-02.png");*/
+/*}*/
+/*.lc-main-left-3F {*/
+     /*background-image: url("../images/index/lou-left-03.png");*/
+ /*}*/
+.floor-link-wrap {
+    width: 140px;
+    margin: 205px auto 0;
+}
+.lc-main-left-title {
+    position: absolute;
+    bottom: 70px;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.left-link-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    right: -10px;
+    text-align: center;
+}
+.lc-main-left-link {
+    line-height: 1;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.lc-main-right {
+    width: 720px;
+    position: relative;
+}
+.any-tab {
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+.lc-list {
+    width: 730px;
+}
+.lc-list-each {
+    position: relative;
+    /*width: 220px;*/
+    height: 190px;
+    margin-left: 18px;
+    margin-top: 5px;
+    background-color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    padding: 10px;
+    box-shadow: 0 0 4px #dcdcdc;
+}
+.lc-list-each:hover .tit-link {
+    color: #ff5400;
+}
+.lc-list-each:hover {
+    box-shadow: 0 0 6px #666;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+}
+.lc-list-each-img {
+    display: block;
+    width: 200px;
+    height: 140px;
+}
+.line-mid {
+    width: 1px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    background-color: #d6d6d6;
+}
+.renqi {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0,0,0,.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 5px;
+    color: #fff;
+    line-height: 1;
+    font-size: 12px;
+}
+.under-yuan {
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.lc-side {
+    width: 224px;
+}
+.lc-side-title {
+    height: 36px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.lc-side-title-name {
+    font-size: 14px;
+    color: #333;
+    margin-top: 18px;
+}
+.lc-side-title-more {
+    font-size: 12px;
+    color: #999;
+    margin-top: 18px;
+}
+.lc-side-li {
+    font-size: 12px;
+    line-height: 1;
+    height: 14px;
+    padding-left: 11px;
+    background-image: url("../images/index/squre-dot.png");
+    background-repeat: no-repeat;
+    background-position: 0 -27px;
+    margin-top: 17px;
+}
+.lc-side-li:hover {
+    background-position: 0 4px;
+}
+.lc-side-li>a {
+    color: #6d6d6d;
+}
+.floor-ban {
+    height: 72px;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+}
+.floor-ban:hover {
+    box-shadow: 0 0 3px #666;
+}
+/* 教育专栏 结束 */
