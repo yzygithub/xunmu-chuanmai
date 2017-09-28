@@ -1,0 +1,686 @@
+@charset "utf-8";
+/*搜索区域样式*/
+.header-search{
+    height: 158px;
+}
+.logo{
+    padding-left: 39px;
+    padding-top: 17px;
+}
+.search-city{
+    height: 70px;
+    line-height: 30px;
+    width: 80px;
+    border-left: 1px solid #ccc;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.search_box{
+    width: 528px;
+    float: left;
+    padding-left: 150px;
+    padding-top: 40px;
+    font-size: 14px;
+}
+.search_box ul{ 
+    width: 160px;
+    height: 16px;
+}
+.search_box ul li{
+    float: left;
+}
+.search_box ul li a{
+    font-size: 16px;
+    color: #656464;
+    display: block;
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.line-search{
+    width: 1px;
+    position: absolute;
+    height: 17px;
+    padding: 0;
+    background-color: #f4e399;
+     z-index: 5;
+    left: 33px;
+    top: 23px;
+}
+.search-text{
+    width: 320px;
+    height: 31px;
+    border: 1px solid #ffdd9a;
+    padding: 0 5px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.search-btn-box{
+    position: relative;
+    width: 429px;
+    height: 48px;
+}
+.search-btn{
+    width: 62px;
+    height: 33px;
+    background-color: #ffbf40;
+    border: 1px solid #ffbf40;
+    color: #fff;
+    font-size: 18px;
+}
+/*搜索 end*/
+/*banner-nav 样式*/
+.banner-nav{
+	width: 100%;
+	min-width: 1200px;
+	height: 50px;
+	background-color: #ffbf40;
+}
+.shopClass{
+	width: 221px;
+	background-color: #ffbf40;
+	cursor: pointer;
+	position: relative;
+}
+.shopClass:hover{
+	background-color: #e1a226;
+}
+.lists-nav{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 999;
+	background-color: #ffbf40;
+	width: 221px;
+	min-height: 498px;
+}
+.lists-nav .nav-item{
+	height: 83px;
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 14px 0 0 16px;
+	border-bottom: 1px solid #f8f2e7;
+}
+.nav-item:hover{
+	background-color: #e1a226;
+}
+.recomment{
+	clear: both;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	zoom: 1;
+}
+.recomment a{
+	display: inline-block;
+	padding-top: 4px;
+	margin-left: 10px;
+}
+.shopClass h3{
+	background: url(../img/icon/icon.png) 11px center no-repeat;
+	line-height: 50px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	
+}
+.submenu{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 221px;
+	border: 1px solid #ccc;
+	z-index: 4;
+	border-left: none;
+	background: #fff;
+	height: 497px;
+	width: 598px;
+}
+.nav-item:hover .submenu{
+	display: block;
+}
+.submenu-div{
+	padding: 28px 50px 15px 22px;
+}
+.submenu-div dl{
+	display: block;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 6px;
+	overflow: hidden;
+}
+.submenu-div dl dt{
+	display: block;
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	padding-right: 6px;
+	padding-top: 6px;
+}
+.submenu-div dl dt a {
+	color: #e4393c;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 25px;
+}
+.submenu-div dl dt a:hover{
+	text-decoration: underline;
+}
+.submenu-div dl dd{
+	display: block;
+	overflow: hidden;
+	padding-left: 64px;
+}
+.submenu-div dl dd a {
+	display: block;
+	float: left; 
+	color: #737373;
+	font-size: 14px;
+	padding: 0 11px;
+	height: 16px;
+	line-height: 16px;
+	margin: 7px 0;
+}
+.submenu-div dl dd a:hover{
+	color: #ffbf40;
+} 
+.shopClass_nav{
+	width: 979px;
+}
+.shopClass_nav ul li{
+	float: left;
+}
+.shopClass_nav ul li a{
+	display: inline-block;
+	height: 50px;
+	width: 126px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #63605d;
+}
+
+/*banner 内容区域*/
+.parent-lunbo{
+	height: 425px;
+	width: 876px;
+	border: 1px solid #ccc;
+}
+.parent-problem{
+	width: 304px;
+	height: 425px;
+	margin-top: 23px;
+}
+.problem-title{
+	background: url(../img/icon/oblong.png) no-repeat;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	height: 24px;
+	line-height: 24px;
+	padding-left: 13px;
+}
+.text{
+	width: 295px;
+	height: 28px;
+	outline:medium;
+	padding-left: 5px;
+	margin-top: 8px;
+}
+.parent-problem textarea{
+	outline:medium;
+	margin-top: 8px;
+}
+.say-problem{
+	margin-top: 8px;
+	border: 1px solid #ccc;
+	width: 304px;
+	height: 25px;
+	padding-left: 5px;
+	outline:medium;
+	appearance:none;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+	background: url(../img/icon/icon-sanjiao.png) no-repeat  right center;
+/*	padding-right: 14px;*/
+}
+select::-ms-expand { display: none; }
+.btn{
+	display: block;
+	width: 174px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	background-color: #ffbf40;
+	color: #fff;
+	margin-top: 32px;
+}
+.check-box{
+	margin-top: 65px;
+	margin-left: 15px;
+}
+
+/*家有教育 区域*/
+.teach{
+	margin-top: 48px;
+	height: 570px;
+	margin-bottom: 46px;
+}
+.more{
+	padding-right: 20px; 
+	font-size: 16px; 
+	color: #949494; 
+	line-height: 28px;
+}
+.teach-title{
+	font-size: 24px;
+	padding-left: 12px;
+}
+.teach-nav{
+	width: 380px;
+	margin-right: 50px;
+}
+.teach-nav li{
+	float: left;
+}
+.teach-nav li a {
+	display: block;
+	width: 95px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 18px;
+}
+.teach-content{
+	width: 1200px;
+	height: 522px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.teach-content-list{
+	width: 269px;
+	margin-left: 24px;
+	margin-top: 36px;
+}
+.img-box{
+	width: 285px;
+	height: 142px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.img-hover:hover{
+	opacity:0.5;
+	filter(alpha=50);
+}
+.teach-content-list a{
+	display:block;
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+} 
+.content-a-title{
+	margin-top: 22px; 
+	font-size: 16px;
+}
+.content-a-title:hover{
+	color: #ffbf40;
+}
+.label-box{
+	width: 269px;
+	height: 22px;
+	margin-top: 21px;
+}
+.viode-label{
+	width: 42px;
+	height: 22px;
+	border-radius: 4px;
+	border: 1px solid #ffbec1;
+	font-size: 14px;
+	color: #ff6c74;
+	text-align: center;
+	line-height: 20px;
+}
+.pic{
+	font-size: 14px;
+	color: #1b1b1b;
+}
+.teach-lists{
+	width: 1200px;
+	height: 178px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.teach-lists-content{
+	height: 45px; 
+	line-height: 45px;
+}
+.teach-lists-content-left{
+	margin-left:23px; 
+	width: 574px;
+	height: 202px;
+}
+.line{
+	border-right: 1px dashed #ccc;
+}
+.teach-lists-content-left-free{
+	width: 42px;
+	height: 22px;
+	border-radius: 4px;
+	border: 1px solid #ffbf40;
+	font-size: 14px;
+	color: #ffbf40;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 12px;
+}
+.content-a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	padding-left: 14px;
+}
+.content-a:hover{
+	color: #ffbf40;
+}
+.content-label{
+	padding-left: 39px;
+	font-size: 16px;
+}
+.time{
+	padding-left: 42px;
+	font-size: 16px;
+}
+/*家有教育 区域 end*/
+
+/*入驻机构 org-list start*/
+.org-list-wrapper {
+    padding: 15px 0;
+    margin-top: 10px;
+    border: solid 1px #e8e8e8;
+    text-align: center;
+}
+.org-list-wrapper .org-list .org-logo {
+    width:234px;
+    height:95px;
+    display:inline-block;
+    border-right:dotted 1px #eee;
+    vertical-align:middle;
+}
+.org-list-wrapper .org-list .org-logo a {
+    position:relative;
+    display:block;
+    text-align:center;
+}
+.org-list-wrapper .org-list .org-logo a img {
+    max-width:160px;
+    max-height:100px;
+    display:block;
+    margin:0 auto;
+    -webkit-transition:1s ease;
+    -o-transition:1s ease;
+    -moz-transition:1s ease;
+    transition:1s ease;
+}
+.org-list-wrapper .org-list .org-logo a:hover img {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+    box-shadow: 0 0 6px #eee;
+}
+.org-list-wrapper .org-list .org-logo.last {
+    border:none;
+}
+
+/*入驻机构 org-list end*/
+
+/*家有考生 start*/
+.examinee-box{
+	height: 494px;
+	margin-top: 48px;
+}
+.examinee-box h3{
+	float: left;
+	font-size: 24px;
+	padding-left: 12px;
+}
+.examinee-content-box{
+	width: 1200px;
+	height: 392px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+.examinee{
+	width: 374px;
+	height: 320px;
+	margin-left: 20px;
+	margin-top: 38px;
+}
+.examinee-title{
+	width: 383px;
+	height: 30px;
+	font-size: 24px;
+}
+.examinee-lists{
+	width: 364px;
+	height: 256px;
+	margin-top: 42px;
+}
+.examinee-lists li{
+	height: 48px;
+	line-height: 48px;
+}
+.examinee-lists li a{
+	display: block;
+	width: 364px;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 22px;
+	background: url(../img/icon/examinee-lists-bg.png) left center no-repeat;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+} 
+.examinee-lists li a:hover{
+	color: #ffbf40;
+}
+.examinee-lists-number , .examinee-lists-date{
+	color: #727171;
+	font-size: 14px;
+}
+.examinee-lists-number{
+	margin-left: 22px;
+}
+/*家有考生 end*/
+
+/*家庭生活 start*/
+.family{
+	height: 680px;
+	margin-top: 48px;
+}
+.family h3{
+	float: left;
+	font-size: 24px;
+	padding-left: 12px;
+}
+.report{
+	display: block;
+	width: 122px;
+	height: 32px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 32px;
+	padding-left: 32px;
+	background: url(../img/icon/icon-write.png) 10px center no-repeat #ffbf40;
+	margin-right: 12px;
+}
+.family-content-box{
+	width: 1200px;
+	height: 638px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+.family-content{
+	width: 583px;
+	height: 237px;
+	margin-top: 38px;
+	margin-left: 16px;
+}
+.family-content-title{
+	background: url(../img/icon/Square.png) left center no-repeat;
+	font-size: 20px;
+	padding-left: 34px;
+}
+.family-content-lists{
+	width: 516px;
+	height: 235px;
+	margin-top: 41px;
+	margin-left: 34px;
+}
+.family-content-lists p a{
+	float: left;
+	display: block;
+	width: 190px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.family-content-lists p a:hover{
+	color: #ffbf40;
+}
+.family-content-lists .lists-title , .family-content-lists .number , .family-content-lists .date{
+	font-size: 14px;
+	color: #727171;
+	margin-left: 24px;
+}
+.health{
+	margin-left: 16px;
+	margin-top: 51px;
+	height: 294px;
+}
+.health-content{
+	width: 1102px;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.health-content-lists{
+	width: 194px;
+}
+.health-content-lists-img-box{
+	width: 211px;
+	height: 120px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.health-content-lists-a{
+	display: block;
+	width: 194px;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 20px;
+}
+.health-content-lists-a:hover{
+	color: #ffbf40;
+}
+.suggest{
+	width: 154px;
+	height: 26px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #727171;
+}
+.author{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #727171;
+}
+/*家庭生活 end*/
+
+/*答疑区 start*/
+.anser-lists{
+	margin-left: 16px;
+	margin-top: 51px;
+	height: 202px;
+}
+.answer-list{
+	width: 551px;
+	height: 144px;
+	margin-left: 34px;
+	margin-top: 30px;
+}
+.answer-list li{
+	height: 30px;
+	line-height: 30px;
+}
+.answer-list-title{
+	float: left;
+	font-size: 16px;
+	color: #ff6c74;
+}
+.answer-list li a{
+	float: left;
+	display: block;
+	width: 200px;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 32px;
+}
+.answer-list li a:hover{
+	color: #ffbf40;
+}
+.answer-list-number , .answer-list-date{
+	font-size: 14px;
+	color: #727171;
+}
+.answer-list-number{
+	margin-left: 20px;
+}
+.answer-list-date{
+	margin-left: 31px;
+}
+.listening-lists{
+	width: 194px;
+	margin-top: 39px;
+	margin-left: 34px;
+}
+.listening-lists-imgBox{
+	width: 211px;
+	height: 120px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.listening-lists-a{
+	font-size: 18px;
+	display: block;
+	width: 144px;
+	height: 22px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 18px;
+}
+.listening-lists-btn{
+	display: block;
+	width: 124px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	background-color: #ffbf40;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 21px;
+}
+/*答疑区 end*/

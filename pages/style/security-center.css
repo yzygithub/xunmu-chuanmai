@@ -1,0 +1,558 @@
+/*banner start*/
+.user-banner{
+	height: 160px;
+}
+.logo{
+    padding-left: 39px;
+    padding-top: 17px;
+}
+.user-banner-title{
+	height: 70px;
+	border-left: 1px solid #ccc;
+	margin-top: 51px;
+	margin-left: 28px;
+}
+.user-banner-title h3{
+	float: left;
+	font-size: 24px;
+	color: #63605d;
+	line-height: 70px;
+	height: 70px;
+	margin-left: 29px;
+}
+.user-banner-right{
+	height: 70px;
+	line-height: 70px;
+	margin-top: 51px;
+	position: absolute;
+	right:0;
+}
+.user-banner-right a{
+	font-size: 16px;
+	color: #63605d;
+	margin-right: 42px;
+}
+.user-banner-right a:hover{
+	color: #ffbf40;
+}
+.user-banner-right .phone{
+	font-size: 16px;
+	color: #63605d;
+}
+
+/*banner end*/
+
+/*content start*/
+.user-content-bg{
+	width: 100%;
+	height: 100%;
+	min-width: 1200px;
+	min-height: 520px;
+	background-color: #f7f7f7;
+}
+
+.user-content-left{
+	width: 220px;
+	height: 446px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-top: 46px;
+}
+.account-manage, .account-settings{
+	width: 220px;
+}
+.account-manage h3{
+	background: url(../img/icon/uesr-icon.png) 27px center no-repeat;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 60px;
+	margin-top: 21px;
+	font-size: 22px;
+	color: #3d3d3d;
+}
+.account-manage-option , .account-settings-option{
+	margin-left: 60px;
+	margin-top: 19px;
+}
+.account-manage-option a , .account-settings-option a{
+	display: block;
+	height: 31px;
+	line-height: 31px;
+	font-size: 16px;
+	color: #3d3d3d;
+}
+.account-settings h3{
+	background: url(../img/icon/user-settings.png) 27px center no-repeat;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 60px;
+	margin-top: 30px;
+	font-size: 22px;
+	color: #3d3d3d;
+}
+/*左侧部分结束*/
+
+/*right start*/
+.security-box{
+	width: 947px;
+	margin-top: 46px;
+}
+.login-password{
+	width: 947px;
+	height: 61px;
+	border: 1px solid #CCCCCC;
+	background: url(../img/icon/perfect.png)10px center no-repeat;
+	font-size: 16px;
+	line-height: 61px;
+	padding-left: 46px;
+	background-color: #fff;
+}
+.login-password-prompt{
+	font-size: 14px;
+	color: #63605d;
+	margin-left: 36px;
+}
+.login-password-setting{
+	color: #4470cd;
+	font-size: 14px;
+	margin-right: 36px;
+	cursor: pointer;
+}
+.password-setting-page{
+	display: none;
+	width: 947px;
+	height: 246px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	background-color: #FFF;
+}
+.setting-page-content{
+	width: 526px;
+	height: 196px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.setting-page-content p{
+	margin-top: 16px;
+	font-size: 14px;
+}
+.current-password{
+	width: 280px;
+	height: 34px;
+	outline: none;
+	padding-left: 5px;
+	margin-left: 10px;
+}
+.current-password-a{
+	color: #4470CD; 
+	font-size: 14px;
+}
+.current-password-a:hover{
+	text-decoration: underline;
+}
+.new-password{
+	margin-left: 14px;
+}
+.ture-password{
+	margin-left: -14px;
+}
+.preservation{
+	display: block;
+	width: 53px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ffbf40;
+	margin-left: 106px;
+	margin-top: 10px;
+}
+.cancel{
+	display: block;
+	width: 53px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #030303;
+	border: 1px solid #CCCCCC;
+	margin-left: 34px;
+	margin-top: 10px;
+}
+.mobile-binding{
+	width: 947px;
+	height: 61px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	background: url(../img/icon/no-perfect.png)10px center no-repeat;
+	font-size: 16px;
+	line-height: 61px;
+	padding-left: 46px;
+	background-color: #FFF;
+}
+.new-phone-page{
+	display: none;
+	width: 947px;
+	height: 279px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	background-color: #fff;
+}
+.new-phone-page p{
+	margin-top: 16px;
+	font-size: 14px;
+}
+.new-phone-page-content{
+	width: 526px;
+	height: 268px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.mobile-identifying-code{
+	margin-left: 28px;
+	height: 54px;
+}
+.identifying-code{
+	width: 116px;
+	height: 34px;
+	outline: none;
+	padding-left: 5px;
+}
+.identifying-code-btn{
+	display: block;
+	width: 107px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background-color: #4a7eea;
+	color: #FFFFFF;
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.new-mobilephone{
+	width: 280px;
+	height: 34px;
+	outline: none;
+	padding-left: 5px;
+}
+.mobile-preservation{
+	display: block;
+	width: 53px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ffbf40;
+	margin-left: 84px;
+	margin-top: 10px;
+}
+.email-setting-page{
+	display: none;
+	width: 947px;
+	height: 280px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	background-color: #FFF;
+}
+.email-page-settings{
+	width: 526px;
+	height: 280px;
+	margin: 0 auto;
+}
+.email-phone{
+	margin-left: 26px;
+}
+.email-sunce{
+	margin-left: 42px;
+}
+.email-identifying-code{
+	margin-top: 10px;
+}
+.email-identifying-code-btn{
+	display: block;
+	width: 107px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background-color: #4A7EEA;
+	color: #FFFFFF;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+.email-password{
+	width: 280px;
+	height: 34px;
+	outline: none;
+	padding-left: 5px;
+}
+.email-preservation {
+	display: block;
+	width: 88px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ffbf40;
+	margin-left: 111px;
+	margin-top: 10px;
+}
+.payment-password-settings , .payment-password-content{
+	height: 294px;
+}
+.payment-password{
+	margin-left: 54px;
+	height: 41px;
+}
+.payment-password-code{
+	margin-top: 12px;
+}
+.payment-password-number{
+	margin-left: 38px;
+}
+.payment-password-message{
+	font-size: 12px;
+	color: #4a7eea;
+	background: url(../img/icon/message.png) left center no-repeat;
+	padding-left: 16px;
+	margin-left: 106px;
+	margin-top: 10px;
+}
+.ture-payment-password{
+	margin-left: 10px;
+}
+.current-payment-password{
+	width: 280px;
+	height: 34px;
+	outline: none;
+	padding-left: 5px;
+}
+.three-platform{
+	width: 947px;
+	height: 200px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	background: url(../img/icon/no-perfect.png) 10px 20px no-repeat;
+	font-size: 16px;
+	padding-left: 46px;
+	padding-top: 23px;
+	background-color: #FFFFFF;
+}
+.cooperation{
+	margin-top: 24px;
+}
+.cooperation li{
+ 	float: left;
+ 	width: 124px;
+ 	height: 60px;
+ 	text-align: center;
+}
+.cooperation li a{
+	display: block;
+	margin-top: 12px;
+	font-size: 14px;
+	color: #4470cd;
+}
+.cooperation li a:hover{
+	color: #ffbf40;
+}
+/*安全中心content end*/
+
+/*个人信息 start*/
+.personal-information{
+	width: 947px;
+	margin-top: 46px;
+	background-color: #FFFFFF;
+}
+.essential-information{
+	width: 947px;
+	height: 60px;
+	line-height: 60px;
+	border: 1px solid #CCCCCC;
+	padding-left: 24px;
+}
+.essential-information-content{
+	width: 947px;
+	height: 576px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	border-bottom: none;
+}
+.essential-information-box{
+	width: 604px;
+	height: 516px;
+	padding-top: 36px;
+	margin-left: 84px;
+}
+.essential-information-name{
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+}
+select {
+  border: solid 1px #ccc;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  padding: 3px 14px 3px 3px;
+	border-radius:5px;
+	background: url("../img/icon/arrow.png") no-repeat scroll right center transparent;
+    
+}
+select::-ms-expand { display: none; }
+
+#name{
+	width: 160px;
+	height: 22px;
+	padding-left: 5px;
+	outline: none;
+	font-size: 80%;
+}
+.information-name-prompt{
+	color: #63605d;
+	font-size: 14px;
+}
+.nickname{
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 14px;
+}
+.gender{
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 8px;
+}
+.gender-content{
+	vertical-align: middle; 
+	margin-left: 5px;
+}
+.man , .woman{
+	vertical-align: middle;
+}
+.woman{
+	margin-left: 20px;
+}
+.synopsis{
+	height: 62px;
+	line-height: 62px;
+	vertical-align: middle; 
+	font-size: 14px;
+	margin-top: 8px;
+}
+.essential-information-city{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.preservation-btn{
+	display: block;
+	width: 53px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ffbf40;
+	margin-left: 42px;
+	margin-top: 34px;
+}
+.essential-cancel{
+	display: block;
+	width: 53px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #030303;
+	border: 1px solid #CCCCCC;
+	margin-left: 34px;
+	margin-top: 34px;
+}
+.essential-information-img{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #CCCCCC;
+	margin-right: 100px;
+	margin-top: 50px;
+	position: relative;
+}
+.information-title{
+	width: 150px;
+	text-align: center;
+	font-size: 14px;
+	background-color: rgba(83,83,68,.5); 
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+	z-index: 1000;
+}
+/*基本信息结束*/
+
+/*简介 start*/
+.textarea-wrapper{
+	height: 73px;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+.textarea-block{
+	float: left;
+	width: 489px;
+	position:relative;
+}
+.textarea-item{
+	width:422px;
+	height:52px;
+	border:1px solid #ccc;
+	padding:10px;
+	font-size: 14px;
+	resize:none;
+	outline: none;
+}
+.textarea-count{
+	position:absolute;
+	bottom:10px;
+	right:0;
+	color:#000;
+}
+.textarea-btn{
+	margin-top:10px;
+}
+/*简介 end*/
+
+/*省级联动 start*/
+.outer{
+	margin-top: 20px;
+	margin-left: -35px;
+}
+.city{
+	font-size: 14px;
+	padding-top: 12px;
+	padding-right: 6px;
+}
+/*省级联动 end*/
+
+/*教育信息 开始*/
+.educational-information-box{
+	width: 947px;
+	height: 193px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+}
+.educational-information{
+	width: 407px;
+	height: 142px;
+	padding-top: 10px;
+	margin-left: 148px;
+}
+.educational-information p{
+	font-size: 14px;
+	padding-top: 10px;
+}
+.school{
+	width: 276px;
+	height: 24px;
+}
+.interest-course{
+	margin-left: -56px;
+}

@@ -1,0 +1,240 @@
+@charset "utf-8";
+/*yzy 2017.9.26*/
+
+/*banner*/
+.help-banner{
+    height: 160px;
+}
+.logo{
+    padding-left: 39px;
+    padding-top: 17px;
+    height: 160px;
+}
+.help-banner-title{
+    height: 70px;
+    border-left: 1px solid #ccc;
+    margin-top: 51px;
+    margin-left: 28px;
+}
+.help-banner-title h3{
+    float: left;
+    font-size: 24px;
+    color: #63605d;
+    line-height: 70px;
+    height: 70px;
+    margin-left: 29px;
+}
+.help-banner-right{
+    height: 70px;
+    line-height: 70px;
+    margin-top: 51px;
+    position: absolute;
+    right:0;
+}
+.help-banner-right a{
+    font-size: 16px;
+    color: #63605d;
+    margin-right: 42px;
+}
+.help-banner-right a:hover{
+    color: #ffbf40;
+}
+.help-banner-right .phone{
+    font-size: 16px;
+    color: #63605d;
+}
+/*banner end*/
+
+/*content start*/
+/*left start*/
+.help-content-bg{
+    width: 100%;
+    height:100%;
+    min-height: 540px;
+    min-width: 1200px;
+    background-color: #f7f7f7;
+    clear: both;
+}
+.help-content-left{
+    width: 205px;
+    height: 441px;
+    /*border: 1px solid rgba(0,0,0,0.08);*/
+    box-shadow: 0 0 5px #bdbdbd;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.help-content-left ul {
+    font-size: 16px;
+}
+.help-li {
+    line-height: 47px;
+    height: 49px;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    position: relative;
+}
+.help-li a {
+    color: #000000;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.help-li a:hover {
+    color: #ffbf40;
+}
+.active a {
+    color: #ffbf40;
+    background-color: #fff;
+}
+/*left end*/
+/*right start*/
+/*关于我们*/
+.help-content-right{
+    width: 955px;
+    height: 100%;
+    min-height:440px;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border: 1px solid #d5d4d4;
+    box-shadow: 0 0 5px #bdbdbd;
+}
+.about-us {
+    width:100%;
+    height:100%;
+}
+.about-us .bg {
+    width:895px;
+    height:270px;
+    background: url("../img/help/help-bg.png") no-repeat center 0;
+}
+.about-us .content {
+    font-size: 14px;
+    color: #333;
+    padding:16px 0;
+}
+.content p {
+    line-height:24px;
+}
+/*关于我们 end*/
+/*联系我们*/
+.contact-us {
+    width:100%;
+    height:400px;
+}
+
+/*联系我们 end*/
+/*fold start*/
+.r {
+    float: right;
+}
+
+.main_header {
+    border-bottom: 1px solid #ddd;
+}
+.main_header h2 {
+    width: 88px;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 3px solid #ffbf40;
+    font-weight: normal;
+    padding-bottom: 5px;
+    color: #ffbf40;
+}
+
+.main_details {
+    position: relative;
+}
+.details_title {
+    padding-top: 21px;
+}
+.details_title > li {
+    background: #f8f8f8;
+    font-weight: bold;
+    position: relative;
+}
+.details_title > li + li {
+    margin-top: 10px;
+}
+.details_hea {
+    height: 44px;
+    line-height: 44px;
+}
+.details_title > li .number {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    background: #54b027;
+    border-radius: 50%;
+    font-size: 19px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: -17px;
+    z-index: 9;
+    font-style: italic;
+}
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.details_title > li span {
+    display: inline-block;
+    height: 100%;
+}
+.details_title > li span {
+    display: inline-block;
+    height: 100%;
+}
+.fold {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.fold img {
+    vertical-align: top;
+}
+.details_title > li i {
+    width: 1px;
+    height: 26px;
+    background: #54b027;
+    position: absolute;
+    top: 37px;
+    left: -3px;
+    z-index: 10;
+}
+.sub_details {
+    display: none;
+    background: #fff;
+    padding: 20px 20px 0 20px;
+}
+.sub_details li {
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 20px;
+}
+.sub_details li h4, .sub_details li p {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    margin: 12px 0;
+    line-height: 20px;
+}
+.show {
+    display: block;
+}
+/*fold end*/
+/*right end*/
+/*content end*/
+

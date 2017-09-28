@@ -519,3 +519,16 @@ a {
   white-space: nowrap;
   overflow: hidden;
 }
+.pos-rel {
+  position: relative;
+}
+div {
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+}
+img {
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+}

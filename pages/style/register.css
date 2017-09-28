@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* 注册页面*/
+input{
+	outline: none;
+}
+.register-logo{
+	text-align: center;
+	margin-bottom: 38px;
+	margin-top: 20px;
+}
+.register-box{
+	width: 1067px;
+	height: 632px;
+	margin: 0 auto;
+}
+.register-box .register-title{
+	font-size: 20px;
+}
+.register-box .register-prompt{
+	font-size: 14px;
+}
+.register-prompt a{
+	font-size: 14px;
+	color: #ffbf40;
+}
+.register-all{
+	width: 1067px;
+	height: 553px;
+	border: 1px solid #CCCCCC;
+	margin-top: 20px;
+	box-shadow: 0 0 5px #888888;
+}
+.register-content-left{
+	width: 511px;
+	height: 462px;
+	margin: 0 auto;
+	border-right: 1px dashed #CCCCCC;
+	margin-top: 40px;
+}
+.mobile , .passWord , .email{
+	color: #5f5f5f;
+	font-size: 18px;
+	margin-left: 24px;
+}
+.mobile-number{
+	width: 300px;
+	height: 40px;
+	padding-left: 5px;
+	margin-left: 22px;
+}
+.verification-code{
+	color: #5f5f5f;
+	font-size: 18px;
+	margin-left: 41px;
+	margin-top: 45px;
+}
+.mobile-verification{
+	width: 130px;
+	height: 40px;
+	padding-left: 5px;
+	margin-left: 24px;
+}
+.verification-btn{
+	display: block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #ffbf40;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 3px;
+	margin-right: 64px;
+}
+.passWord{
+	margin-top: 45px;
+}
+.password-title{
+	width: 511px;
+	text-align: center;
+	font-size: 14px;
+	color: #ababab;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.protocol{
+	margin-left: 136px;
+	margin-top: 20px;
+}
+.checkBox{
+	height: 13px; 
+	vertical-align: text-top; 
+	margin-top: 2px;
+}
+.register-btn{
+	display: block;
+	width: 350px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #ffbf40;
+	color: #fff;
+	margin-top: 38px;
+	margin-left: 108px;
+}
+.register-content-right{
+	width: 416px;
+	height: 381px;
+	margin-top: 46px;
+	margin-right: 52px;
+}
+.register-content-right img{
+	display: block;
+	width: 131px;
+	height: 132px;
+	margin: 0 auto;
+}
+.footer-text{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.footer-text p{
+	color: #222222;
+	font-size: 14px;
+}

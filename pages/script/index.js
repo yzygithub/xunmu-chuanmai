@@ -1,14 +1,5 @@
 $(function(){
-	//导航栏下拉二级菜单
-	$("#nav li").hover(function(){
-    // $(this).find('div').stop().fadeIn(300);
-		$(this).find('div').stop().slideDown();
-	},function(){
-    // $(this).find('div').stop().fadeOut(300);
-		$(this).find('div').stop().slideUp(300);
-	});
 
-	
 	//手动控制轮播图
          var index = 0;
 	 $(".btnList li").click(function(){
